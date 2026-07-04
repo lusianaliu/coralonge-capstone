@@ -1,0 +1,44 @@
+[
+  {
+    "Name": "Coralcare Regenerist Series: Retinol",
+    "Brand": "Coralcare",
+    "Active Ingredients": [
+      "Retinol"
+    ],
+    "Category": "Skincare"
+  },
+  {
+    "Name": "Coralcare Regenerist Series: UV Protection",
+    "Brand": "Coralcare",
+    "Active Ingredients": [
+      "UV Filters (Zinc Oxide)"
+    ],
+    "Category": "Skincare"
+  },
+  {
+    "Name": "Coralvit Effervescent Calcium Multivitamin",
+    "Brand": "Coralvit",
+    "Active Ingredients": [
+      "Calcium",
+      "Vitamin C",
+      "Vitamin D3"
+    ],
+    "Category": "Supplement"
+  },
+  {
+    "Name": "Coralskin Essential Retinol",
+    "Brand": "Coralskin",
+    "Active Ingredients": [
+      "Retinol"
+    ],
+    "Category": "Skincare"
+  },
+  {
+    "Name": "Coralskin Daily Sunscreen SPF 50",
+    "Brand": "Coralskin",
+    "Active Ingredients": [
+      "UV Filters (Zinc Oxide)"
+    ],
+    "Category": "Skincare"
+  }
+]

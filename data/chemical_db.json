@@ -1,0 +1,48 @@
+[
+  {
+    "Name": "Retinol",
+    "Category": "Skincare",
+    "Contraindications": [
+      "Vitamin C"
+    ],
+    "Best Time": "Night",
+    "Requires Sunscreen": true,
+    "Note": "Retinol accelerates cell turnover but makes skin highly sensitive to UV rays. Sunscreen is MANDATORY the next morning."
+  },
+  {
+    "Name": "Vitamin C",
+    "Category": "Skincare / Supplement",
+    "Contraindications": [
+      "Retinol"
+    ],
+    "Best Time": "Morning",
+    "Requires Sunscreen": false,
+    "Note": "A powerful antioxidant for day protection. Do not layer with Retinol in the same routine to prevent severe irritation."
+  },
+  {
+    "Name": "UV Filters (Zinc Oxide)",
+    "Category": "Skincare",
+    "Contraindications": [],
+    "Best Time": "Morning",
+    "Requires Sunscreen": false,
+    "Note": "Provides critical UV protection, essential when using retinoids or chemical exfoliants."
+  },
+  {
+    "Name": "Calcium",
+    "Category": "Supplement",
+    "Contraindications": [
+      "Iron"
+    ],
+    "Best Time": "Morning",
+    "Requires Sunscreen": false,
+    "Note": "Crucial for bone density. Best absorbed when combined with Vitamin D3; avoid taking at the same time as Iron."
+  },
+  {
+    "Name": "Vitamin D3",
+    "Category": "Supplement",
+    "Contraindications": [],
+    "Best Time": "Morning",
+    "Requires Sunscreen": false,
+    "Note": "Synergizes with Calcium to maximize bone absorption and longevity."
+  }
+]

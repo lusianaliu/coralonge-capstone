@@ -1,4 +1,5 @@
-# Coralonge-Capstone
+
+# Coralonge-Capstone
 
 ### 🔗 Project Links
 - [🎬 Watch Video Demo (YouTube)](https://www.youtube.com/watch?v=mYvPeei4iPo)
@@ -32,24 +33,33 @@ The core of this system is powered by a collaborative Multi-Agent orchestration:
 ```mermaid
 graph TD
     classDef user fill:#e1f5fe,stroke:#0288d1,stroke-width:2px;
-    classDef security fill:#ffebee,stroke:#c62828,stroke-width:2px,stroke-dasharray: 5 5;
+    classDef security fill:#ffebee,stroke:#c62828,stroke-width:2px,stroke-dasharray:5 5;
     classDef adk fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
     classDef agent fill:#f3e5f5,stroke:#6a1b9a,stroke-width:2px;
     classDef db fill:#fff8e1,stroke:#f9a825,stroke-width:2px;
 
-    A[USER / TERMINAL CLI] :::user -->|Product Inputs| B(SECURITY LAYER <br> Transient API Key Verification) :::security
-    B -->|Secure Session Trigger| C[MULTI-AGENT ORCHESTRATOR <br> ADK Powered by Gemini API] :::adk
+    A[USER / TERMINAL CLI] -->|Product Inputs| B[SECURITY LAYER<br>Transient API Key Verification]
+    B -->|Secure Session Trigger| C[MULTI-AGENT ORCHESTRATOR<br>ADK Powered by Gemini API]
     
-    C -->|1. Request Analysis| D[CHEMIST AGENT] :::agent
-    D -->|2. Factual Query| E[MCP SERVER <br> Anti-Hallucination Lock] :::security
-    E -->|3. Read Local JSON| F[(LOCAL DATABASES <br> product_db / chemical_db)] :::db
+    C -->|1. Request Analysis| D[CHEMIST AGENT]
+    D -->|2. Factual Query| E[MCP SERVER<br>Anti-Hallucination Lock]
+    E -->|3. Read Local JSON| F[LOCAL DATABASES<br>product_db / chemical_db]
     
     F -->|4. Verified Ingredients| D
     D -->|5. Send Chemical Report| C
     
-    C -->|6. Staggering Routine Request| G[SCHEDULE AGENT] :::agent
-    G -->|7. Enforce Business Rules <br> Brand Loyalty Lock| G
-    G -->|8. Generate Tables| H[FINAL INTERACTIVE CLI OUTPUT <br> Routine Table & Critical Warnings] :::user
+    C -->|6. Staggering Routine Request| G[SCHEDULE AGENT]
+    G -->|7. Enforce Business Rules<br>Brand Loyalty Lock| G
+    G -->|8. Generate Tables| H[FINAL INTERACTIVE CLI OUTPUT<br>Routine Table & Critical Warnings]
+
+    class A user
+    class B security
+    class C adk
+    class D agent
+    class E security
+    class F db
+    class G agent
+    class H user
 ```
 
 ## Security
